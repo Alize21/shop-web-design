@@ -15,6 +15,7 @@ body {
   position: relative;
   width: 100%;
   background-color: white;
+  /* margin-bottom: 20vw; */
 }
 
 .hero-img img {
@@ -58,6 +59,45 @@ body {
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-size: 6em;
+  font-size: 9vw;
   white-space: nowrap;
+}
+
+/* deskription */
+.deskription h1 {
+  margin: 10vw 0;
+  text-align: center;
+}
+
+.kotak-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kotak {
+  width: calc((98%) / 5);
+  height: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.kotak-1 {
+  background-color: limegreen;
+}
+.kotak-2 {
+  background-color: pink;
+}
+.kotak-3 {
+  background-color: lightcyan;
+}
+.kotak-4 {
+  background-color: lightyellow;
+}
+.kotak-5 {
+  background-color: yellow;
+}
+
+.kotak p {
+  font-size: 2vw;
 }
