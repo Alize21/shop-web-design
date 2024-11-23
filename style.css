@@ -9,6 +9,79 @@ body {
   justify-content: center;
 }
 
+/* nav */
+nav {
+  overflow: hidden;
+}
+
+.logo-container {
+  width: 100%;
+  height: 70px;
+  padding-left: 40px;
+  background-color: #313131;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-desk {
+  display: flex;
+  align-items: center;
+}
+.logo-container h1 {
+  font-size: 20px;
+  color: white;
+}
+.logo-container h2 {
+  text-align: center;
+  color: white;
+  width: 120px;
+  height: 100%;
+  padding: 0 10px;
+  border-left: 1px solid rgba(245, 245, 245, 0.411);
+  line-height: 70px;
+}
+.nav-desk h2:nth-child(2) {
+  border-right: 1px solid rgba(245, 245, 245, 0.411);
+  border-left: 1px solid rgba(245, 245, 245, 0.342);
+}
+
+.logo-container input {
+  width: 55%;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 20px;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+.logo-container input::placeholder {
+  font-size: 20px;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  padding-left: 60px;
+  background-color: #535252;
+  overflow: hidden;
+}
+.navbar ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.navbar li {
+  font-size: 18px;
+  list-style: none;
+  color: white;
+  padding: 20px;
+}
+.navbar li:hover {
+  background-color: white;
+  color: black;
+}
+
 /* hero */
 .hero {
   position: relative;
